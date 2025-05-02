@@ -1,19 +1,8 @@
-# Todos
+# Welcome to your Expo app 👋
 
-# Input
-The user interacts with a simple UI to manage a list of tasks. A text input field allows users to enter a new to-do item, and a "Submit" button is used to add the task to the list. Each to-do displays a title along with "Done" and "Delete" buttons. At the bottom, a tab bar offers three filter options: All, Active, and Complete, allowing users to view tasks based on their status.
-
-# Process
-When the user types a task and clicks "Submit", the app stores it in the local state and logs it to the console. Each task is an object with `title` and `complete` status. The “Done” button toggles the completion status, while “Delete” removes the task. The tab bar updates the UI based on the selected filter by applying conditions to show all, only completed, or only active tasks.
-
-# Output
-The app displays the list of tasks in a styled scrollable view. Tasks marked as complete appear with a strikethrough. Based on the selected filter tab, the UI dynamically updates to show only the relevant tasks. Each action—add, toggle, or delete—instantly updates the interface and logs the event to the terminal, providing both functional interactivity and developer visibility during testing.
-
-![image](./SS_1.png)
-![image](./SS_2.png)
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 1. Install dependencies
 
@@ -24,7 +13,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2. Start the app
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
 In the output, you'll find options to open the app in a
@@ -34,6 +23,28 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-## Author
-- Name: Ayush Kumar Gupta
-- Email: guptaayushkumar@cityuniversity.edu
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.

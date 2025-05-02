@@ -9,8 +9,9 @@ When the user types a task and clicks "Submit", the app stores it in the local s
 # Output
 The app displays the list of tasks in a styled scrollable view. Tasks marked as complete appear with a strikethrough. Based on the selected filter tab, the UI dynamically updates to show only the relevant tasks. Each action—add, toggle, or delete—instantly updates the interface and logs the event to the terminal, providing both functional interactivity and developer visibility during testing.
 
-![image](./SS_1.png)
-![image](./SS_2.png)
+![image](./AllTask.png)
+![image](./ActiveTask.png)
+![image](./CompTask.png)
 
 ## Get started
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
